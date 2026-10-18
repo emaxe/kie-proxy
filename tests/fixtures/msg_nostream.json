@@ -1,0 +1,6 @@
+{
+ "meta": {
+  "status": 200
+ },
+ "body": "{\"role\":\"assistant\",\"usage\":{\"output_tokens\":39,\"cache_creation_input_tokens\":781,\"input_tokens\":10,\"cache_read_input_tokens\":6954},\"stop_reason\":\"end_turn\",\"model\":\"claude-haiku-4-5-20251001\",\"id\":\"msg_72ba61e6-2d4\",\"credits_consumed\":0.05,\"type\":\"message\",\"content\":[{\"text\":\"hi\",\"type\":\"text\"}]}"
+}

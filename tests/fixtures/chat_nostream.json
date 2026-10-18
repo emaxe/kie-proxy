@@ -1,0 +1,7 @@
+{
+ "meta": {
+  "status": 200,
+  "path": "/gpt-5-2/v1/chat/completions"
+ },
+ "body": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"content\":\"hi\",\"role\":\"assistant\"}}],\"created\":1792340157,\"credits_consumed\":0.01,\"id\":\"chatcmpl-81d45190d2fd4f47b055d53e\",\"model\":\"gpt-5.2\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":1,\"prompt_tokens\":86,\"total_tokens\":87}}"
+}

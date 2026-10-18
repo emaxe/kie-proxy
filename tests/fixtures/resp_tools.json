@@ -1,0 +1,8 @@
+{
+ "meta": {
+  "status": 200,
+  "ctype": "application/json;charset=UTF-8",
+  "path": "/openai/v1/responses"
+ },
+ "body": "{\"usage\":{\"input_tokens_details\":{\"cached_tokens\":256},\"total_tokens\":346,\"output_tokens\":50,\"input_tokens\":296,\"output_tokens_details\":{\"reasoning_tokens\":11}},\"created_at\":1792341094,\"store\":true,\"tools\":[{\"name\":\"get_weather\",\"description\":\"Get weather\",\"type\":\"function\",\"parameters\":{\"type\":\"object\",\"properties\":{\"city\":{\"type\":\"string\"}},\"required\":[\"city\"]}}],\"caching\":{\"type\":\"disabled\"},\"output\":[{\"summary\":[{\"text\":\"User wants weather in Boston. Call get_weather.\",\"type\":\"summary_text\"}],\"id\":\"rs_02179234109411400000000000000000000ffffac159df7dad3c7\",\"type\":\"reasoning\",\"status\":\"completed\"},{\"name\":\"get_weather\",\"arguments\":\"{\\\"city\\\": \\\"Boston\\\"}\",\"id\":\"fc_02179234109424500000000000000000000ffffac159df7ffa0b9\",\"type\":\"function_call\",\"call_id\":\"call_00_r2xlqjnoxh2bec885c9hif4j\",\"status\":\"completed\"}],\"model\":\"deepseek-v4-1-flash-260910\",\"service_tier\":\"default\",\"expire_at\":1792600293,\"id\":\"resp_02179234109351820cfcaf0410bba00355b4c276f44ffeda4295e\",\"credits_consumed\":0.01,\"object\":\"response\",\"status\":\"completed\"}\n"
+}

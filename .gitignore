@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# local
+*.log
+nohup.out
+.env

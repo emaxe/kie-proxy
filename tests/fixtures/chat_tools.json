@@ -1,0 +1,8 @@
+{
+ "meta": {
+  "status": 200,
+  "ctype": null,
+  "path": "/gpt-5-2/v1/chat/completions"
+ },
+ "body": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"content\":\"# Weather in Boston, Massachusetts\\n\\n\\n\\nBoston, MA\\nSunday, October 18\\n49\u00b0F (9\u00b0C)\\n<text>Sunny \u2600\ufe0f\\n\\n\\n\\n<grid     <grid-item>\\n\\nHigh\\n54\u00b0F (12\u00b0C)\\n\\n</grid-item>\\n<grid-item>\\n\\n\\nLow tonight\\n37\u00b0F (3\u00b0C)\\n\\n</grid-item>\\n<grid-item>\\n\\nChance of rain\\n0% today\\n\\n</grid-item>\\n<grid-item>\\n\\n\\n\\nConditions\\nClear and sunny\\n\\n</grid-item>\\n</grid>\\nLive weather data; Boston local time.\\n\\n## Today's forecast\\n\\n| Time | Conditions | Temperature |\\n|---|---|---:|\\n| 12 PM | \u2600\ufe0f Sunny | 52\u00b0F (11\u00b0C) |\\n| 1 PM | \u2600\ufe0f Sunny | 53\u00b0F (12\u00b0C) |\\n| 2\u20133 PM | \u2600\ufe0f Sunny | 53\u201354\u00b0F (12\u00b0C) |\\n| 5 PM | \u2600\ufe0f Sunny | 52\u00b0F (11\u00b0C) |\\n| 8 PM | \ud83c\udf19 Clear | 47\u00b0F (8\u00b0C) |\\n| 11 PM | \ud83c\udf19 Clear | 44\u00b0F (7\u00b0C) |\\n\\n**My recommendation:** Enjoy the sunshine, but bring a jacket. It\u2019s a chilly autumn day, and temperatures will drop into the upper 30s tonight. Rain is not expected today.\\n\\n\",\"role\":\"assistant\"}}],\"created\":1792340739,\"credits_consumed\":0.20,\"id\":\"chatcmpl-33f4ec0ae24345878fbb7694\",\"model\":\"gpt-5.2\",\"object\":\"chat.completion\",\"usage\":{\"completion_tokens\":278,\"prompt_tokens\":92,\"total_tokens\":370}}"
+}

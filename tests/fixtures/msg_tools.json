@@ -1,0 +1,8 @@
+{
+ "meta": {
+  "status": 200,
+  "ctype": null,
+  "path": "/anthropic/v1/messages"
+ },
+ "body": "{\"role\":\"assistant\",\"usage\":{\"output_tokens\":115,\"cache_creation_input_tokens\":7814,\"input_tokens\":10,\"cache_read_input_tokens\":0},\"stop_reason\":\"tool_use\",\"model\":\"claude-haiku-4-5-20251001\",\"id\":\"msg_011CgA289tE9meXu3AeJw28j\",\"credits_consumed\":0.03,\"type\":\"message\",\"content\":[{\"input\":{\"city\":\"Boston\"},\"name\":\"get_weather\",\"id\":\"toolu_01LwZJHUB5DjF2B24dkg1489\",\"type\":\"tool_use\"}]}"
+}

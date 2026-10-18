@@ -1,0 +1,7 @@
+{
+ "meta": {
+  "status": 200,
+  "ctype": "text/event-stream;charset=UTF-8"
+ },
+ "body": "data: {\"choices\":[{\"delta\":{\"role\":\"assistant\"},\"index\":0}],\"created\":1792340171,\"id\":\"chatcmpl-3f2c2e43f247464dbba99440\",\"model\":\"gpt-5.2\",\"object\":\"chat.completion.chunk\"}\n\ndata: {\"choices\":[{\"delta\":{\"content\":\"hi\"},\"index\":0}],\"created\":1792340171,\"id\":\"chatcmpl-3f2c2e43f247464dbba99440\",\"model\":\"gpt-5.2\",\"object\":\"chat.completion.chunk\"}\n\ndata: {\"choices\":[{\"delta\":{},\"finish_reason\":\"stop\",\"index\":0}],\"created\":1792340171,\"credits_consumed\":0.01,\"id\":\"chatcmpl-3f2c2e43f247464dbba99440\",\"model\":\"gpt-5.2\",\"object\":\"chat.completion.chunk\",\"usage\":{\"completion_tokens\":1,\"prompt_tokens\":86,\"total_tokens\":87}}\n\ndata: [DONE]\n\n"
+}
